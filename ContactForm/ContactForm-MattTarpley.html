@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<!-- Matthew Tarpley
+     11/14/2022 -->
+<html lang="en">
+<head>
+    <title>Contact Form</title>
+    <meta name="author" content="Matthew Tarpley" />
+    <meta charset="UTF-8" />
+    <meta name="description" content="Matthew Tarpley, web developer Boise Idaho" />
+    <meta name="keywords" content="client-side server-side C# HTML CSS JavaScript" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+        div {
+            margin: 10px;
+        }
+
+        label {
+            margin-right: 15px;
+            width: 150px;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <form action="mailto:matttarpley@my.cwi.edu?subject=Personal%20Portfolio%20Mail" enctype="text/plain" method="POST">
+        <!-- Group Fields Together-->
+        <fieldset>
+        <legend>How do I contact you?</legend>
+            <!-- Company Select Box-->
+            <div>
+                <p>Company:</p>
+                <input type="text" name="company" id="company" placeholder="Company Name">
+            </div>
+            <!-- Person to Contact Select Box-->
+            <div>
+                <p>Person to contact:</p>
+                <input type="text" name="contact" id="contact" placeholder="Contact Name">
+            </div>
+            <!-- Email-->	
+            <div>
+                <label for="email">Email:</label><input type="email" name="email" id="email" placeholder="youremail@address.com" required>
+            </div>
+            <!-- Phone-->
+            <div>
+                <label for="phone">Phone Number:</label><input type="tel" name="phone" id="phone" 
+                placeholder="111-222-3333" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>  
+            </div>
+        </fieldset>
+
+        <!-- Group Fields Together-->
+        <fieldset>
+            <legend>What opportunities are available at your company?</legend>
+            <!-- Select Box-->
+            <div>
+                <label for="type">Type of Position:</label>
+                <select name="type" id="type">
+                    <option value="Internship">Internship</option>
+                    <option value="Jr Position">Jr Position</option>
+                </select>
+            </div>
+            <!-- Radio Buttons-->
+            <div>
+                <p>How did you find me?</p>
+                <input type="radio" name="Linkedin" id="Linkedin" value="yes"><label for="Linkedin">Linkedin</label>
+                <input type="radio" name="Job Fair" id="Job Fair" value="yes"><label for="Job Fair">Job Fair</label>
+                <input type="radio" name="CWI Corporate Partner" id="CWI Corporate Partner" value="yes"><label for="CWI Corporate Partner">CWI Corporate Partner</label>
+            </div>
+            <!-- Text Area -->	
+            <div>
+                <textarea name="textarea">Type message..</textarea> 
+            </div>
+        </fieldset>
+		<input type="submit" id="submit" value="Submit" class="btn">
+     </form>
+</body>
+</html>
