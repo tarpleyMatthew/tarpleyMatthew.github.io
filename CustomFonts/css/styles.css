@@ -1,0 +1,15 @@
+/* Practice CustomFonts Style Sheet 
+    Matthew Tarpley
+    11/15/2022*/
+
+@font-face {
+    font-family: 'greatvibes';
+    src: url('../fonts/greatvibes-regular-webfont.woff') format('woff'),
+         url('../fonts/greatvibes-regular-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+	font-family: 'greatvibes', "Times New Roman", serif;
+}
