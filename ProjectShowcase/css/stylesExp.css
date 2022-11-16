@@ -1,0 +1,41 @@
+/*
+Matthew Tarpley
+11/16/2022
+*/
+
+.explist {
+    all: revert;
+}
+
+section {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+.examples {
+    background: #c7c7c7;
+    float: left;
+    margin: 15px;
+    width: 30%;
+    padding-bottom: 15px;
+}
+h3 {
+    background-color: #92A6D3;
+    color: white;
+}
+.examples a.button {
+    display: block;
+    width: 75%;
+    margin: 10px auto;
+    color: #FFFFFF;
+    background: linear-gradient(#92A6D3, #445D98);
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 15px;
+    padding: 1px;
+}
+.examples a.button:hover {
+    background: aliceblue;
+    color:#000000
+}

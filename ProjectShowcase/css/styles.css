@@ -1,0 +1,49 @@
+/*
+Matthew Tarpley
+11/16/2022
+*/
+h1 {
+    max-width: fit-content;
+    margin:auto;
+}
+body {
+    background: beige;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #92A6D3;
+}
+
+li {
+    float:left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #445D98;
+}
+
+.active {
+    background-color: aliceblue;
+    color:black;
+}
+
+main {
+    padding-top: 20px;
+}
+footer {
+    clear:left;
+    text-align: center;
+    background-color:  #92A6D3;
+    padding-bottom: 2px;
+}
