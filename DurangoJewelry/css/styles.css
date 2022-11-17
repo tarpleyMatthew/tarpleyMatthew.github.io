@@ -1,0 +1,72 @@
+
+/*Matthew Tarpley
+	11/17/2022*/
+ 
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@font-face {
+    font-family: 'sourceSans';
+    src: url('../fonts/sourcesanspro-regular-webfont.woff') format('woff')
+         url('../fonts/sourcesanspro-regular-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+#outerwrapper {	
+
+	background: rgba(243,205,170, 0.4);
+	border-radius: 15%;
+	max-width: 70%;
+	margin:auto;
+	text-align: left;
+	
+}
+body{
+
+	background: url("../images/jewelry.jpg");
+	background-position: top;
+	background-repeat: no-repeat;
+  	background-size: cover;
+
+}
+img {
+	float:left;
+	border-radius: 6em;
+
+}
+.addRightMargin {
+	margin-right: 10%;
+
+}
+nav ul{
+	clear:left;
+	list-style-type: none;
+	font-size: 1.5em;
+
+}
+h1 {
+	font-family: 'Pacifico', cursive;
+	font-size: 4em;
+
+}
+
+h2 {
+	font-family: 'sourceSans', "Times New Roman", serif;
+	font-size: 2em;
+}
+
+main {
+	background: linear-gradient(#ffffff, #f0f9e6);
+	border-radius: 2em;
+	font-family: Georgia, 'Times New Roman', Arial;
+	font-size: 1.25em;
+	padding: 10px;
+	margin: 20px;
+
+}
+footer {
+	font-size: 1em;
+	text-align: center;
+	padding-bottom: 10px;
+
+}
+
+
