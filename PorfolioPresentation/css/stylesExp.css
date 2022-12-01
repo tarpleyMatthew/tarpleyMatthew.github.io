@@ -1,0 +1,70 @@
+/*Matthew Tarpley
+11.28.2022
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;1,500&display=swap');
+
+
+.icons{
+    display: flex;
+    justify-content: center;
+}
+
+.icons img{
+    height:10%;
+    width:10%;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+    font-size: 2em;
+    font-family: 'Playfair Display', serif;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-width: 2px;
+    border-style: solid;
+    color: #000000;
+    margin-bottom: 20px;
+  }
+  
+  table td, th {
+    border-width: 2px;
+    border-color: #484849;
+    border-style: solid;
+    padding: 15px;
+    font-size: 1.2em;
+    font-family: 'Playfair Display', serif;
+  }
+  
+  tr td:first-child {
+    background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+  }
+  tbody tr:nth-child(even) {
+    background-color: #eee;
+}
+.projects{
+    display: flex;
+    justify-content: center;
+}
+.projects div{
+    border-radius: 6px;
+    box-shadow: 0px 2px 15px 2px darkgrey;
+    padding: 25px;
+    margin: 25px;
+}
+.projects img {
+    width: 309px;
+    transition: width 0.8s ease 0.3s
+}
+.projects img:hover {
+    width: 450px;
+}
+h3{
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    background-color: #eee;
+    border-radius: 6px;
+}

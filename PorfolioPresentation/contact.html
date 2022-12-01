@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<!--Matthew Tarpley
+    11/28/2022-->
+<html lang="en">
+<head>
+    <meta name="Author" content="Matt Tarpley">
+    <meta name="description" content="Contact me Boise Idaho">
+    <meta name="keywords" content="UX UI software programming">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="css/stylesContact.css">
+    <title>Matthew Tarpley Portfolio</title>
+</head>
+<body>
+  <nav>
+    <a href="index.html"><h1>Matthew Tarpley</h1></a>
+      <ul>
+        <li><a href="index.html" class="nav-link">Home</a></li>
+        <li><a href="about.html" class="nav-link">About</a></li>
+        <li><a href="experience.html" class="nav-link">Experience</a></li>
+        <li><a href="contact.html" class="nav-link active">Contact</a></li>
+      </ul>
+      <hr>
+  </nav>
+  <main>
+    <form action="mailto:matttarpley@my.cwi.edu?subject=Personal%20Portfolio%20Mail" enctype="text/plain" method="POST">
+      <!-- Group Fields Together-->
+      <fieldset>
+      <legend>How do I contact you?</legend>
+          <!-- Company Select Box-->
+          <div>
+              <p>Company:</p>
+              <input type="text" name="company" id="company" placeholder="Company Name">
+          </div>
+          <!-- Person to Contact Select Box-->
+          <div>
+              <p>Person to contact:</p>
+              <input type="text" name="contact" id="contact" placeholder="Contact Name">
+          </div>
+          <!-- Email-->	
+          <div>
+              <label for="email">Email:</label><input type="email" name="email" id="email" placeholder="youremail@address.com" required>
+          </div>
+          <!-- Phone-->
+          <div>
+              <label for="phone">Phone Number:</label><input type="tel" name="phone" id="phone" 
+              placeholder="111-222-3333" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>  
+          </div>
+      </fieldset>
+
+      <!-- Group Fields Together-->
+      <fieldset>
+          <legend>What opportunities are available at your company?</legend>
+          <!-- Select Box-->
+          <div>
+              <label for="type">Type of Position:</label>
+              <select name="type" id="type">
+                  <option value="Internship">Internship</option>
+                  <option value="Jr Position">Jr Position</option>
+              </select>
+          </div>
+          <!-- Radio Buttons-->
+          <div>
+              <p>How did you find me?</p>
+              <input type="radio" name="Linkedin" id="Linkedin" value="yes"><label for="Linkedin">Linkedin</label>
+              <input type="radio" name="Job Fair" id="Job Fair" value="yes"><label for="Job Fair">Job Fair</label>
+              <input type="radio" name="CWI Corporate Partner" id="CWI Corporate Partner" value="yes"><label for="CWI Corporate Partner">CWI Corporate Partner</label>
+          </div>
+          <!-- Text Area -->	
+          <div>
+              <textarea name="textarea">Type message..</textarea> 
+          </div>
+      </fieldset>
+  <input type="submit" id="submit" value="Submit" class="btn">
+   </form>
+  </main>
+  <footer>
+      <hr>
+      <p>Find me on<a href="https://www.linkedin.com/in/matthew-tarpley-1266441ab/" target="_blank" ><img src="images/iconmonstr-linkedin-5-48.png"></a> and 
+      <a href="https://github.com/tarpleyMatthew" target="_blank"><img src="images/iconmonstr-github-1-48.png"></a></p>
+  </footer>
+</body>
+</html>
