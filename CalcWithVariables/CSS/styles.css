@@ -1,0 +1,14 @@
+/*Matthew Tarpley
+    12/5/2022
+*/
+
+:root {
+    --fontSize: 1.25em;
+    --fontSizeHeading: calc(var(--fontSize) * 3);
+}
+body {
+    font-size: var(--fontSize);
+}
+h1 {
+    font-size: var(--fontSizeHeading);
+}
