@@ -1,0 +1,11 @@
+C:\Users\tarpl\OneDrive\Documents\Software Dev Portfolio\Tips Calculator\Tips Calculator\bin\Debug\Tips Calculator.exe.config
+C:\Users\tarpl\OneDrive\Documents\Software Dev Portfolio\Tips Calculator\Tips Calculator\bin\Debug\Tips Calculator.exe
+C:\Users\tarpl\OneDrive\Documents\Software Dev Portfolio\Tips Calculator\Tips Calculator\bin\Debug\Tips Calculator.pdb
+C:\Users\tarpl\OneDrive\Documents\Software Dev Portfolio\Tips Calculator\Tips Calculator\obj\Debug\Tips Calculator.csproj.AssemblyReference.cache
+C:\Users\tarpl\OneDrive\Documents\Software Dev Portfolio\Tips Calculator\Tips Calculator\obj\Debug\Tips Calculator.csproj.SuggestedBindingRedirects.cache
+C:\Users\tarpl\OneDrive\Documents\Software Dev Portfolio\Tips Calculator\Tips Calculator\obj\Debug\Tips_Calculator.Form1.resources
+C:\Users\tarpl\OneDrive\Documents\Software Dev Portfolio\Tips Calculator\Tips Calculator\obj\Debug\Tips_Calculator.Properties.Resources.resources
+C:\Users\tarpl\OneDrive\Documents\Software Dev Portfolio\Tips Calculator\Tips Calculator\obj\Debug\Tips Calculator.csproj.GenerateResource.cache
+C:\Users\tarpl\OneDrive\Documents\Software Dev Portfolio\Tips Calculator\Tips Calculator\obj\Debug\Tips Calculator.csproj.CoreCompileInputs.cache
+C:\Users\tarpl\OneDrive\Documents\Software Dev Portfolio\Tips Calculator\Tips Calculator\obj\Debug\Tips Calculator.exe
+C:\Users\tarpl\OneDrive\Documents\Software Dev Portfolio\Tips Calculator\Tips Calculator\obj\Debug\Tips Calculator.pdb
