@@ -1,0 +1,70 @@
+/*
+Matthew Tarpley
+11/30/2022
+*/
+
+
+/*for typewriter effect*/
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/*styles for main paragraph and image*/
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/*typewrite effect*/
+.about-me h1 {
+  overflow: hidden; 
+  white-space: nowrap; 
+  margin: 0 auto; 
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+  text-align: center;
+}
+
+h2{
+  text-align: center;
+  color: white;
+  background: #4F88CF;
+  padding: 25px;
+  line-height: 2rem;
+}
+
+.about-me p {
+    padding: 75px 25px;
+    max-width: 750px;
+    font-size: 1.5em;
+    text-align: center;
+    border: 20px solid #4F88CF;
+  }
+  .home-image {
+    padding: 30px;
+    opacity: 90%;
+    height:75%;
+    width:75%;
+  }
+
+  .about-me p::first-letter {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+
+  /*mobile responsive styles*/
+  @media screen and (min-width: 960px) {
+    main{
+      flex-direction: row;
+    }
+
+    .home-image {
+      height:fit-content;
+      width:fit-content;
+    }
+
+  }
