@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <script src="js/script.js" defer></script>
+    <title>Pokedex</title>
+</head>
+<body>
+    <div class="search-container">
+        <input type="text" class="search-bar" placeholder="Search any Pokemon..">
+        <button type="button" class="search-button"><img src="images/pokeball-48.png" alt="small pokeball image"></button>
+        <button class="random-button" onclick="GenerateRandom()"><img src="images/random.png"></button>
+    </div>
+    <div id="slideshow"></div>
+    <div class="main-container">
+        <div class="pokemon-info">
+            <h1 class="name">Pokemon Name</h1>
+            <img src="" class="sprite">
+            <h2 class="type">Type</h2>
+        </div>
+        <div class="stats">
+            <p class="hp">HP: </p>
+            <div class="stat-bar" id="hp-bar"></div>
+
+            <p class="attack">Attack: </p>
+            <div class="stat-bar" id="attack-bar"></div>
+
+            <p class="defense">Defense: </p>
+            <div class="stat-bar" id="defense-bar"></div>
+
+            <p class="spec-attack">Special Attack: </p>
+            <div class="stat-bar" id="spec-attack-bar"></div>
+
+            <p class="spec-def">Special Defense: </p>
+            <div class="stat-bar" id="spec-defense-bar"></div>
+
+            <P class="speed">Speed: </P>
+            <div class="stat-bar" id="speed-bar"></div>
+
+        </div>
+    </div>
+</body>
+</html>

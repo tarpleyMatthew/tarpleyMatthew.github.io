@@ -1,0 +1,130 @@
+/*setting background image and font*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+html {
+    background: url(../images/Horizon.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+
+/*centering search container and main container with flexbox and margin auto*/
+.search-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 500px;
+    margin: 25px auto;
+    margin-left: 100px;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #eee;
+    border-radius: 25px;
+    opacity: 75%;
+    max-width: 500px;
+    min-width: 375px;
+    margin: 0 auto;
+    margin-left: 5px;
+    padding: 50px;
+}
+
+
+
+/*styles for both buttons, seachr bar, and psuedo class for hover effect*/
+button {
+    cursor: pointer;
+    border: none;
+    background: none;
+    transition: 0.2s ease-in-out;
+    margin: 5px;
+}
+
+button:hover {
+    transform: scale(1.2);
+}
+
+.search-bar {
+
+    border: none;
+    border-radius: 25px;
+    font-size: 1em;
+    padding: 10px 20px;
+    opacity: 75%;
+}
+
+
+/*styles for pokemon info once loaded in container*/
+.pokemon-info {
+    background-color: white;
+    border-radius: 25px;
+    margin-right: 10%;
+    padding: 50px;
+}
+p {
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.main-container img {
+    transform: scale(1.5);
+}
+
+.type {
+    border-style: inset;
+    border-radius: 25px;
+    padding: 5px 10px;
+}
+
+
+/*styles for stat bars and slideshow*/
+.stat-bar {
+    background-color: #5EBDFC;
+    border-radius: 10px;
+    padding: 5px;
+    border-color: white;
+    transition: 0.3s ease-in-out;
+}
+
+#slideshow {
+    overflow: hidden;
+    position: relative;
+  }
+
+#slideshow img {
+    margin: 1em;
+}
+
+
+/*responsive design styles*/
+@media screen and (min-width: 450px) {
+
+    
+ .search-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 500px;
+    margin: 25px auto;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #eee;
+    border-radius: 25px;
+    opacity: 75%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+}
